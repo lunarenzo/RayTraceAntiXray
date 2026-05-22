@@ -32,4 +32,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: RayTraceAntiXray-Jar
-        path: build/libs/*.jar
+        path: |
+          build/libs/*.jar
+          RayTraceAntiXray/build/libs/*.jar
+
